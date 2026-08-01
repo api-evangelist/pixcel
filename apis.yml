@@ -1,8 +1,27 @@
 aid: pixcel
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pixcel.png
 name: Pixcel
-description: 'Pixcel is a company surfaced as a portfolio company of matrix-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: b2b. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'PIXCEL Inc. is an early-stage deep-tech startup developing cutting-edge
+  silicon photonics solutions and photonic integrated circuits (PICs) for optical
+  communications and related systems. Based in Matawan, NJ, and co-founded by silicon
+  photonics veteran Long Chen (previously at Cisco Systems and Acacia Communications),
+  the company designs passive and active photonic components and collaborates with
+  foundry partners to optimize process design kits (PDKs). PIXCEL is a hardware and
+  semiconductor company with no public API, developer portal, or software product
+  surface at this time; it was surfaced as a portfolio company of Matrix Partners and
+  added to the API Evangelist network as a lead. This profile reflects an enrichment
+  pass that confirmed there is no API surface to catalog.'
 url: https://raw.githubusercontent.com/api-evangelist/pixcel/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - B2B
+- Silicon Photonics
+- Photonics
+- Semiconductors
+- Photonic Integrated Circuits
+- Optical Communications
+- Hardware
+- Deep Tech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/pixcel-domain-security.yml
 - type: Website
-  url: https://pixcel.com
+  url: https://www.pixcel.com
+- type: Support
+  url: https://www.pixcel.com/contact
+- type: Careers
+  url: https://jobs.lever.co/pixcel
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
